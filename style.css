@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+p {
+    line-height: 1.6;
+}
+
+:root {
+    --Moderate_violet: hsl(263, 55%, 52%);
+    --Moderate_light_violet: hsl(271, 85%, 63%);
+    --Very_dark_grayish_blue: hsl(217, 19%, 35%);
+    --Very_dark_blackish_blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(0, 0%, 81%);
+    --Light_grayish_blue: hsl(210, 46%, 95%);
+}
+
+body {
+    background-color: var(--Light_gray);
+    max-width: 100%;
+}
+
+main {
+    display: grid;
+    gap: 27px;
+    grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+}
+
+/* DANIEL CARD */
+#card_Daniel {
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: 85% 0;
+    background-color: var(--Moderate_violet);
+    grid-area: daniel;
+    border-radius: 10px;
+    padding: 40px;
+
+    color: var(--White);
+}
+
+#card_Daniel h1 {
+    font-size: 25px;
+}
+
+#card_Daniel p {
+    opacity: 70%;
+    font-size: 17px;
+}
+
+#user_profile_Daniel {
+    display: flex;
+}
+
+#user_profile_Daniel img {
+    height: 40px;
+
+    border-radius: 100%;
+    border: 2px solid var(--Moderate_light_violet);
+}
+
+#user_profile_Daniel div {
+    display: block;
+    margin-left: 15px;
+}
+
+#user_profile_Daniel div h2 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+#user_profile_Daniel div h3 {
+    font-size: 13px;
+    opacity: 50%;
+    margin: 0;
+    margin-top: 3px;
+}
+/* DANIEL CARD */
+
+/* JONATHAN CARD */
+#card_Jonathan {
+    background-color: var(--Very_dark_grayish_blue);
+    grid-area: jonathan;
+    border-radius: 10px;
+    padding: 40px;
+
+    color: var(--White);
+}
+
+#card_Jonathan h1 {
+    font-size: 25px;
+}
+
+#card_Jonathan p {
+    opacity: 70%;
+    font-size: 17px;
+}
+
+#user_profile_Jonathan {
+    display: flex;
+}
+
+#user_profile_Jonathan img {
+    height: 40px;
+
+    border-radius: 100%;
+}
+
+#user_profile_Jonathan div {
+    display: block;
+    margin-left: 15px;
+}
+
+#user_profile_Jonathan div h2 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+#user_profile_Jonathan div h3 {
+    font-size: 13px;
+    opacity: 50%;
+    margin: 0;
+    margin-top: 3px;
+}
+
+/* JONATHAN CARD */
+
+/* JEANETTE CARD */
+#card_Jeanette {
+    background-color: var(--White);
+    grid-area: jeanette;
+    border-radius: 10px;
+    padding: 40px;
+
+    color: var(--Very_dark_grayish_blue);
+}
+
+#card_Jeanette h1 {
+    font-size: 25px;
+}
+
+#card_Jeanette p {
+    opacity: 70%;
+    font-size: 17px;
+}
+
+#user_profile_Jeanette {
+    display: flex;
+}
+
+#user_profile_Jeanette img {
+    height: 40px;
+
+    border-radius: 100%;
+}
+
+#user_profile_Jeanette div {
+    display: block;
+    margin-left: 15px;
+}
+
+#user_profile_Jeanette div h2 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+#user_profile_Jeanette div h3 {
+    font-size: 13px;
+    opacity: 50%;
+    margin: 0;
+    margin-top: 3px;
+}
+/* JEANETTE CARD */
+
+/* PATRICK CARD */
+#card_Patrick {
+    background-color: var(--Very_dark_blackish_blue);
+    grid-area: patrick;
+    border-radius: 10px;
+    padding: 40px;
+
+    color: var(--White);
+}
+
+#card_Patrick h1 {
+    font-size: 25px;
+}
+
+#card_Patrick p {
+    opacity: 70%;
+    font-size: 17px;
+}
+
+#user_profile_Patrick {
+    display: flex;
+}
+
+#user_profile_Patrick img {
+    height: 40px;
+    border-radius: 100%;
+}
+
+#user_profile_Patrick div {
+    display: block;
+    margin-left: 15px;
+}
+
+#user_profile_Patrick div h2 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+#user_profile_Patrick div h3 {
+    font-size: 13px;
+    opacity: 50%;
+    margin: 0;
+    margin-top: 3px;
+}
+
+/* PATRICK CARD */
+
+/* KIRA CARD */
+#card_Kira {
+    background-color: var(--White);
+    grid-area: kira;
+    border-radius: 10px;
+    padding: 40px;
+
+    color: var(--Very_dark_grayish_blue);
+}
+
+#card_Kira h1 {
+    font-size: 25px;
+}
+
+#card_Kira p {
+    opacity: 70%;
+    font-size: 17px;
+}
+
+#user_profile_Kira {
+    display: flex;
+}
+
+#user_profile_Kira img {
+    height: 40px;
+    border-radius: 100%;
+}
+
+#user_profile_Kira div {
+    display: block;
+    margin-left: 15px;
+}
+
+#user_profile_Kira div h2 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+#user_profile_Kira div h3 {
+    font-size: 13px;
+    opacity: 50%;
+    margin: 0;
+    margin-top: 3px;
+}
+/* KIRA CARD */
